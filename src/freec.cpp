@@ -308,7 +308,7 @@ void calculateCopyNumberMedians(int ploidy,std::map <string, vector <int> > &bre
             }
         }
     }
-    cout << "HMCan will only calculate ratio for genomic windows with GC-content from "<< minGCtoConsider << " to "<<maxGCtoConsider<<endl;
+    cout << "Epidomain will only calculate ratio for genomic windows with GC-content from "<< minGCtoConsider << " to "<<maxGCtoConsider<<endl;
     //end of update
 
     for ( it=read_count.begin() ; it != read_count.end(); it++ ) {
