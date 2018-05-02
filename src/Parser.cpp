@@ -202,7 +202,7 @@ void Parser::parse(char * config_file){
 			}
 
 			else
-				cerr<<"Warning: "<<item<<" is not a parameter for HMCan"<<endl;
+				cerr<<"Warning: "<<item<<" is not a parameter for EpiDomain"<<endl;
 		}
 
 		// validating parameters

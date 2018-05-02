@@ -16,7 +16,7 @@ using namespace std;
 #include"Reader.h"
 #include "Parser.h"
 #include "CoverageCalc.h"
-const double EPIDOMAIN_VERSION = 1.39;
+const double EPIDOMAIN_VERSION = 1.00;
 
 static void print_version()
 {
